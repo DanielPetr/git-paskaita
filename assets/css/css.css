@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before,
+a,
+li
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0.5px solid red;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+.site_header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.logo img{
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.site_header > .flex-container{
+    justify-content: space-between;
+}
+
+.main-nav li{
+    list-style: none;
+}
+
+.main-nav li a{
+    color: #212121;
+    padding: 0 20px;
+    margin: 0 2.5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: 400;
+}
+
+.hero{
+    background-image: url(..//images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero > .container{
+    min-height: 100vh;
+    text-align: right;
+}
+
+.hero p{
+    width: 50%;
+    font-family: 'source sans pro', sans-serif;
+    line-height: 34px;
+    font-size: 1.125rem;
+    color: #212121;
+    margin-bottom: 60px;
+}
+
+.hero .container{
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero h1{
+    font-family: 'source sans pro', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+    color: #212121;
+    padding-bottom: 45px;
+}
+
+.hero h1::after{
+    content: "";
+    border-top: 4px solid #212121;
+    display: block;
+    width: 139;
+    margin: 0px 2px 0px 310px;
+}
+
+.hero a{
+    padding: 15px 90px;;
+    border: 2px solid #212121;
+    font-family: 'source sans pro', sans-serif;
+    color: #212121;
+}
+
+/*INTRO(WHERE BROCCOLI IMAGE)*/
+
+.logo2 img{
+    display: block;
+}
+
+.logo2{
+    margin-bottom: 30px;
+}
+
+.intro .container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.intro p{
+    width: 85%;
+    letter-spacing: 0.025em;
+    line-height: 33pt;
+    font-size: 1rem;
+    font-family: 'source sans pro', sans-serif;
+    color: #212121;
+    font-weight: 400;
+}
+.intro h2{
+    letter-spacing: 0.075em;
+    font-size: 1.6875rem;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: 700;
+    margin-bottom: 70px;    
+}
